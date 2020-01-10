@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Plomberie</title>
+    <title>2F Plomberie</title>
     <meta name="description" content="Site de plomberie, coordonées etc">
     <!-- <link rel="icon" type="images/..." href="logo.jpg"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -207,7 +207,7 @@
         <div class="social-media">
             <ul class="nav-list">
                 <li>
-                    <a href="#" class="icon-link">
+                    <a href="mailto:2fplomberie@gmail.com" title="Gmail" class="icon-link">
                     <i class="fas fa-envelope-square"></i>
                     </a>
                 </li>
@@ -223,6 +223,20 @@
                 </li>
             </ul>
         </div> 
+
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <ul>
+                <li>85 Chemin Talbor</li><br>
+                <li>91 310 LINAS</li><br>
+                <li>Tél.06 59 33 43 97</li><br>
+                <!--<li><a href="mailto:2fplomberie@gmail.com">2fplomberie@gmail.com</a></li>-->
+            </ul>
+        </div>
+
+        <!--<div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.574661271122!2d2.2520238152256766!3d48.61798442555837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5d754da54575f%3A0xa73585968c8e28e6!2s85%20Chemin%20de%20Tabor%2C%2091310%20Linas!5e0!3m2!1sfr!2sfr!4v1578679211614!5m2!1sfr!2sfr" width="250" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>-->
 
         <p>&copy; 2020 2F Plomberie. Tous droits réservés.</p> 
     </footer>
