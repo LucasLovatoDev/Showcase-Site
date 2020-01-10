@@ -17,9 +17,10 @@
 
         <div class="header-text">
             <h1>2F</h1>
-            <h6>Artisan Plombier Installateur 24H/7J</h6>
-            <div class="numero-tel" href="tel:+3360980778" role="button">
-                <span>01 60 98 07 78</span>
+            <!--<img src="images/logo2F.jpg">-->
+            <h6>A chaque chantier sa solution</h6>
+            <div class="numero-tel" href="tel:+33659334397" role="button">
+                <span>06 59 33 43 97</span>
             </div>
         </div>
 
@@ -52,11 +53,18 @@
                     <div class="plomberie-heading">
                         <h1>Plomberie</h1>
                     </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Sit maxime dolorum non quo magnam, laborum laboriosam dignissimos odio id. 
-                        Veritatis harum hic ex itaque numquam suscipit velit esse autem cumque.
-                        Sit maxime dolorum non quo magnam, laborum laboriosam dignissimos odio id. 
-                        Veritatis harum hic ex itaque numquam suscipit velit esse autem cumque ! 
+                        <p>
+                        <h3>NOS INTERVENTIONS :</h3><br>
+                            Création de réseau d'eau (froide et chaude)<br>
+                            Création de réseau d'évacuation (PVC et fonte)<br>
+                            Réseau chauffage<br> 
+                            Canalisation d'eau et de gaz<br><br>
+
+                        <h3>NOS SOLUTIONS :</h3><br>
+                            Robinetterie : mitigeurs, mélangeurs, robinets à bec, robinets thermostatiques<br>
+                            Tuyauterie : sanitaire, industrielle, en PVC, en cuivre, en acier<br>
+                            Chauffe eau : gaz, électrique, de type vertical, de type horizontal<br>
+                            Chauffe eau Thermo-dynamique<br>
                         </p>
                     </div>
                     <ul class="services-item">
@@ -86,11 +94,9 @@
                 <div class="douche-heading">
                     <h1>Douche</h1>
                 </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Sit maxime dolorum non quo magnam, laborum laboriosam dignissimos odio id.
-                    Veritatis harum hic ex itaque numquam suscipit velit esse autem cumque.
-                    Sit maxime dolorum non quo magnam, laborum laboriosam dignissimos odio id. 
-                    Veritatis harum hic ex itaque numquam suscipit velit esse autem cumque ! 
+                    <p>
+                    <h3>Douches :</h3><br>
+                        Hydromassage, cabines douches standard, cabines monoblocs, combinés bains douches, bacs de douches standard, bacs de douches à l'italienne
                     </p>
                 </div>   
             </div>
@@ -103,11 +109,9 @@
                 <div class="bain-heading">
                     <h1>Bain</h1>
                 </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Sit maxime dolorum non quo magnam, laborum laboriosam dignissimos odio id. 
-                    Veritatis harum hic ex itaque numquam suscipit velit esse autem cumque.
-                    Sit maxime dolorum non quo magnam, laborum laboriosam dignissimos odio id. 
-                    Veritatis harum hic ex itaque numquam suscipit velit esse autem cumque ! 
+                    <p>
+                    <h3>Baignoires :</h3><br>
+                        Classiques, sabots, d'angle, asymétriques, Îlots, baignoires-douches
                     </p>
                 </div>  
                 <ul class="services-item">
@@ -200,7 +204,27 @@
         <!-- <div class="up" id="up">
             <i class="fas fa-chevron-up"></i>
         </div> -->
-        <p>&copy; 2020 2F Plomberie</p> 
+        <div class="social-media">
+            <ul class="nav-list">
+                <li>
+                    <a href="#" class="icon-link">
+                    <i class="fas fa-envelope-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-link">
+                    <i class="fab fa-google-plus-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-link">
+                    <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div> 
+
+        <p>&copy; 2020 2F Plomberie. Tous droits réservés.</p> 
     </footer>
 
 
