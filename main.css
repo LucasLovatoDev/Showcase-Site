@@ -32,7 +32,7 @@ section {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 img {
@@ -120,8 +120,8 @@ header {
 }
 
 .navigation a:hover {
-    color: #fcf6b1;
-    border-bottom: 2px solid #a1cca5 ;
+    color: #5386e4;
+    border-bottom: 2px solid #5386e4 ;
     transition: .4s;
 }
 
@@ -181,7 +181,7 @@ header {
 
 /*Start Plomberie*/
 .plomberie{
-    background-color: #587792;
+    background-color: #dffdff;
 }
 
 .plomberie .container {
@@ -222,8 +222,9 @@ header {
 
 .plomberie-details {
     font-family: 'Roboto', sans-serif;
-    margin-left: 3%;
+    text-align: justify;
     margin-right: 3%;
+    margin-left: 3%;
     line-height: 1.5rem;
     font-size: 1.3rem;
     flex: 1;
@@ -273,7 +274,7 @@ Fin Divider*/
 
 /*Start Douche*/
 .douche{
-    background-color: white;
+    background-color: #dffdff;
 }
 
 .douche .container {
@@ -313,6 +314,7 @@ Fin Divider*/
 
 .douche-details {
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
     margin-right: 3%;
     margin-left: 3%;
     line-height: 1.5rem;
@@ -323,7 +325,7 @@ Fin Divider*/
 
 /*Start Bain*/
 .bain{
-    background-color: #587792;
+    background-color: #dffdff;
 }
 
 .bain .container {
@@ -364,6 +366,7 @@ Fin Divider*/
 
 .bain-details {
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
     margin-left: 3%;
     margin-right: 3%;
     line-height: 1.5rem;
@@ -470,8 +473,8 @@ input[type="submit"]:hover {
     background-color: rgba(56,182,255,0.56);
 }
 
-.succes {
-    color: ;
+.success {
+    color: #dc0073;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: bold;
@@ -486,7 +489,7 @@ input[type="submit"]:hover {
 .copyright {
     width: 100%;
     text-align: center;
-    background-color: black;/*OU #2F2E33*/
+    background-color: black;
     padding: 2rem 0;
     position: relative;
 }
@@ -495,6 +498,37 @@ input[type="submit"]:hover {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1rem;
+}
+
+.social-media {
+    margin-top: 2rem;
+}
+
+.social-media i {
+    font-size: 3rem;
+    padding-left: 0.5rem;
+    transition: color 650ms;
+}
+
+.fa-envelope-square:hover {
+    color: #89bbfe;
+}
+
+.fa-facebook-square:hover {
+    color: blue;
+}
+
+.fa-google-plus-square:hover {
+    color: #d8572a;
+}
+
+.nav-list {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 /*End Footer*/
 
