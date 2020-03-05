@@ -39,6 +39,19 @@ img {
     width: 460px;
     height: 350px;
 }
+
+ul {
+    margin: 0 0 1.5rem;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+p {
+    margin: 0 0 .5rem;
+}
 /*End Global*/
 
 /*Start Reusable*/
@@ -69,6 +82,7 @@ img {
 
 .carousel-heading h1 {
     font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
     color: black;
     text-transform: uppercase;
     font-weight: 300;
@@ -95,6 +109,7 @@ header {
 
 .navigation {
     width: 100%;
+    z-index: 300;
     margin: 0 auto;
     background-color: #2F2E33;
     position: fixed;
@@ -177,6 +192,71 @@ header {
     color: #221e3f;
     transition: background-color 650ms;
 }
+
+.depannage-block {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    height: 300px;
+    width: 300px;
+    top: -40px;
+    bottom: 20px;
+    right: 20px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #FFF;
+    border-radius: 5px;
+    opacity: 0.8;
+  }
+
+.depannage-block p {
+    color: black;
+}
+
+.depannage-block h2 {
+    color: black;
+    padding-top: 20px;
+}
+
+.depannage-block h4 {
+    color: #5386e4;
+}
+
+.entretien-block {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    height: 300px;
+    width: 300px;
+    top: -50px;
+    bottom: 20px;
+    left: 20px;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #FFF;
+    border-radius: 5px;
+    opacity: 0.8;
+  }
+
+.entretien-block p {
+    color: black;
+}
+
+.entretien-block h2 {
+    color: black;
+    padding-top: 20px;
+}
+
+p.text-pop {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    width: 10em
+}
 /*End Header*/
 
 /*Start Plomberie*/
@@ -194,14 +274,14 @@ header {
     text-align: center;
     text-transform: uppercase;
     line-height: 0;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 
 .plomberie-heading h1 {
     font-family: 'B612', sans-serif;
-    color: blue;
+    color: #090c9b;
     font-size: 3rem;
-    opacity: .3;
+    /*opacity: .3;*/
 }
 
 /*#plomberie-bloc {
@@ -226,78 +306,37 @@ header {
     margin-right: 3%;
     margin-left: 3%;
     line-height: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     flex: 1;
 }
 /*End Plomberie*/
 
-/*CSS du Divider
-.wrapper
-{
-	padding-bottom: 90px;
-}
-
-.divider
-{
-	position: relative;
-	margin-top: 90px;
-	height: 1px;
-}
-
-.div-transparent:before
-{
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 5%;
-	right: 5%;
-	width: 90%;
-	height: 1px;
-	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
-}
-
-.div-arrow-down:after
-{
-	content: "";
-	position: absolute;
-	z-index: 1;
-	top: -7px;
-	left: calc(50% - 7px);
-	width: 14px;
-	height: 14px;
-	transform: rotate(45deg);
-	background-color: white;
-	border-bottom: 1px solid rgb(48,49,51);
-	border-right: 1px solid rgb(48,49,51);
-}
-Fin Divider*/
-
 /*Start Douche*/
-.douche{
+.salledebain{
     background-color: #dffdff;
 }
 
-.douche .container {
+.salledebain .container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.douche-heading {
+.salledebain-heading {
     text-align: center;
     text-transform: uppercase;
     line-height: 0;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 
-.douche-heading h1 {
+.salledebain-heading h1 {
     font-family: 'B612', sans-serif;
-    color: blue;
+    color: #090c9b;
     font-size: 3rem;
-    opacity: .3;
+    /*opacity: .3;*/
 }
 
-#douche-bloc {
+#salledebain-bloc {
     /*width: 250px;
     height: 500px;*/
     margin-left: 50px;
@@ -312,13 +351,13 @@ Fin Divider*/
     height: 500px;
 }
 
-.douche-details {
+.salledebain-details {
     font-family: 'Roboto', sans-serif;
     text-align: justify;
     margin-right: 3%;
     margin-left: 3%;
     line-height: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     flex: 1;
 }
 /* End Douche */
@@ -343,9 +382,9 @@ Fin Divider*/
 
 .bain-heading h1 {
     font-family: 'B612', sans-serif;
-    color: blue;
+    color: #090c9b;
     font-size: 3rem;
-    opacity: .3;
+    /*opacity: .3;*/
 }
 
 /*#bain-bloc {
@@ -376,18 +415,10 @@ Fin Divider*/
 /*End Bain*/
 
 /*Start Realisations*/
-ul {
-    margin: 0 0 1.5rem;
-    padding: 0;
-}
-
-li {
-    display: inline-block;
-}
-
 img {
     height: auto;
     margin-bottom: .5rem;
+    padding-right: 2rem;
     border-radius: 3px;
     max-width: calc(100% + 2rem);
     position: static;
@@ -395,38 +426,94 @@ img {
     right: -1rem;
 }
 
-p {
-    margin: 0 0 .5rem;
-}
-
-.carousel{
-    padding: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-/*.card {
-    border: 1px solid black;
-    border-radius: 3px;
-    padding: 1rem;
-}*/
-
-.carousel-items {
-    display: flex;
-    overflow-x: hidden;
-    padding: 1rem 0;
-    scroll-snap-type: x mandatory;
+.carousel-wrapper {
+    height:450px;
+    position:relative;
+    width:800px;
+    margin:0 auto;
 }
 
 .carousel-item {
-    margin-left: 1rem;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 400px;
-    margin-left: 1rem;
-    flex: 1 0 250px;
-    margin-left: 1rem;
-    scroll-snap-align: start;
-}   
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:25px 50px;
+    opacity:0;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow {
+    border-radius: 5%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev {
+    left:-30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(135deg);
+}
+
+.arrow-next {
+    right:-30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(-45deg);
+}
+
+.light {
+    color:white;
+}
+
+/*Selectionne tous les éléments*/
+[id^="item"] {
+    display: none;
+}
+  
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background:url('images/ex1.jpg');
+    background-size: cover;
+}
+
+.item-2 {
+    background:url('images/ex2.jpg');
+    background-size:cover;
+}
+
+.item-3 {
+    background:url('images/sitebg1.jpg');
+    background-size:cover;
+}
+  
+*:target ~ .item-1 {
+    opacity: 0;
+}
+  
+#item-1:target ~ .item-1 {
+    opacity: 1;
+}
+  
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+}
+
+.carousel-item h2{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+.carousel-item p{
+    font-family: 'B612', sans-serif;
+    color: #000000;
+}
 /*End Realisations*/
 
 /*Start Contact*/
@@ -553,9 +640,208 @@ input[type="submit"]:hover {
 }
 /*End Footer*/
 
+
+/*.container {
+    position: relative;
+  }*/
+
+
 /*Start Media Queries*/
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 750px) {
+    /*Reusable*/
+    ul {
+        margin: 0rem;
+        padding: 0;
+    }
+
+    .services-items {
+        margin-right: 0px;
+    }
+
+    /*Navigation Menu*/
+    .navigation {
+        display: none;
+    }
+
+    /*Header Bloc*/
+    .depannage-block {
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        height: 216px;
+        width: 300px;
+        top: -220px;
+        bottom: 20px;
+        right: 20px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        background-color: #FFF;
+        border-radius: 5px;
+        opacity: 0.8;
+    }
+
+    .entretien-block {
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        height: 216px;
+        width: 300px;
+        top: 220px;
+        bottom: 20px;
+        left: 20px;
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        background-color: #FFF;
+        border-radius: 5px;
+        opacity: 0.8;
+      }
+
+    /*Toutes les sections*/    
+    .plomberie-heading {
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 0;
+        margin-bottom: 4rem;
+    }
+    
+    .plomberie-heading h1 {
+        font-family: 'B612', sans-serif;
+        color: #090c9b;
+        font-size: 2rem;
+        /*opacity: .3;*/
+    }
+
+    .plomberie-details {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin-right: 3%;
+        margin-left: 3%;
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        flex: 1;
+    }
+
+    .box1 > img { 
+        /*height: 400px;
+        width: 300px;*/
+        display: none;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
 
 
+    .salledebain-heading {
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 0;
+        margin-bottom: 4rem;
+    }
+    
+    .salledebain-heading h1 {
+        font-family: 'B612', sans-serif;
+        color: #090c9b;
+        font-size: 2rem;
+        /*opacity: .3;*/
+    }
+
+    .salledebain-details {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin-right: 3%;
+        margin-left: 3%;
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        flex: 1;
+    }
+
+    #salledebain-bloc {
+        /*width: 250px;
+        height: 500px;*/
+        margin-left: -350px;
+        /*background-color: #3A5199;*/
+        margin-right: 0rem;
+    }
+    
+    .box2 > img {
+        /*height: 400px;
+        width: 300px;*/
+        display: none;
+    }
+
+
+    .bain-heading {
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 0;
+        margin-bottom: 4rem;
+    }
+    
+    .bain-heading h1 {
+        font-family: 'B612', sans-serif;
+        color: #090c9b;
+        font-size: 2rem;
+        /*opacity: .3;*/
+    }
+
+    .bain-details {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin-left: 3%;
+        margin-right: 3%;
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        flex: 1;
+    }
+
+    .box3 > img {
+        /*height: 400px;
+        width: 300px;*/
+        display: none;
+    }
+
+
+    /*Réalisations*/
+    .carousel-heading h1 {
+        font-size: 1.5rem;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 300;
+        position: relative;
+        margin-bottom: -3rem;
+    }
+
+    .carousel-wrapper {
+        height:350px;
+        position:relative;
+        width:250px;
+        margin:0 auto;
+    }
+
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+
+    /*Contact Form Text*/
+    .section-heading h1 {
+        font-size: 1.5rem;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 300;
+        position: relative;
+        margin-bottom: 1rem;
+    }
+
+    .section-heading h6 {
+        font-size: 1.2rem;
+        font-weight: 300;
+        bottom: -1rem;
+    }
 }
 /*End Media Queries*/

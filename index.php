@@ -16,12 +16,29 @@
         <div class="header-img"></div>
 
         <div class="header-text">
-            <h1>2F</h1>
+            <h1>2F Plomberie</h1>
             <!--<img src="images/logo2F.jpg">-->
             <h6>A chaque chantier sa solution</h6>
             <div class="numero-tel" href="tel:+33659334397" role="button">
                 <span>06 59 33 43 97</span>
             </div>
+            <!-- Deux blocs sur header -->
+            <div class="depannage-block">
+                <h2>Dépannage</h2><br>
+                <h4>53 €/h</h4>
+                <p class="text-pop">
+                Plomberie<br>
+                Alimentation eau froide / eau chaude<br>
+                Evacuation PVC<br>
+                Sanitaire<br>
+                Etc...
+                </p>
+            </div>
+            <div class="entretien-block">
+                <h2>Entretien</h2>
+                <p class="text-pop">A prévoir tous les 2 ans pour les canalisations de drainage et d'eaux usées, et tous les 5 ans pour les colonnes de chutes. </p>
+            </div>
+            <!-- Deux blocs sur header -->
         </div>
 
         <nav class="navigation">
@@ -32,10 +49,10 @@
                 <a href="#plomberie" title="Plomberie" class="nav-link"> <i class="fas fa-wrench"></i> <span class=""ml-1></span> Plomberie</a>
             </li>
             <li>
-                <a href="#douche" title="Douche" class="nav-link"> <i class="fas fa-shower"></i> <span class=""ml-1></span> Douche</a>
+                <a href="#salledebain" title="Salle de Bain" class="nav-link"> <i class="fas fa-shower"></i> <span class=""ml-1></span> Salle de Bains</a>
             </li>
             <li>
-                <a href="#bain" title="Bain" class="nav-link"> <i class="fas fa-bath"></i> <span class=""ml-1></span> Bain</a>
+                <a href="#fuite/dégorgement" title="Fuite/Dégorgment" class="nav-link"> <i class="fas fa-bath"></i> <span class=""ml-1></span> Fuites/Dégorgement</a>
             </li>
             <li>
                 <a href="#realisations" title="Réalisations" class="nav-link"> <i class="fas fa-archive"></i> <span class=""ml-1></span> Réalisations</a>
@@ -78,32 +95,37 @@
                 </div>
     </section>
 
-    <!-- Deuxième section, partie douche -->
-    <section class="douche" id="douche">
+    <!-- Deuxième section, partie salle de bain -->
+    <section class="salledebain" id="salledebain">
         <div class="container">
-            <div id="douche-bloc">
+            <div id="salledebain-bloc">
                 <ul class="services-item">
-                    <!-- <li class="services-items"> -->
+                    <!-- <li class="services-item"> -->
                         <div class="box2">
                             <!-- <h2 class="card-title">My awesome article</h2> -->
                             <img src="images/sitebg1.jpg" title="Image 2" alt="Image"/>
                         </div>
                     </li>
                 </div>
-            <div class="douche-details">
-                <div class="douche-heading">
-                    <h1>Douche</h1>
+            <div class="salledebain-details">
+                <div class="salledebain-heading">
+                    <h1>Salle de Bains</h1>
                 </div>
                     <p>
                     <h3>Douches :</h3><br>
-                        Hydromassage, cabines douches standard, cabines monoblocs, combinés bains douches, bacs de douches standard, bacs de douches à l'italienne
+                        Hydromassage, cabines douches standard, cabines monoblocs, combinés bains douches, bacs de douches standard, bacs de douches à l'italienne<br><br>
+                    <h3>Bains :</h3><br>
+                        Baignoires : Classiques, sabots, d'angle, asymétriques, Îlots, baignoires-douches<br><br>
+                    <h3>Aménagement :</h3><br>
+                        Salles de bains pour personnes à mobilité réduite
+                        Carrelage antidérapant
                     </p>
                 </div>   
             </div>
         </section>
 
     <!-- Troisième section, partie bain -->
-    <section class="bain" id="bain">
+    <section class="bain" id="fuite/dégorgement">
         <div class="container">
             <div class="bain-details">
                 <div class="bain-heading">
@@ -130,41 +152,29 @@
         <div class="carousel-heading">
             <h1>Nos réalisations</h1>
         </div>
-        <ul class="carousel-items">
-            <li class="carousel-item">
-                <div class="card">
-                    <!-- <h2 class="card-title">My awesome article</h2> -->
-                    <img src="images/sitebg1.jpg" title="" alt=""/>
-                    <div class="card-content">
-                        <!-- <p>Mewl for food at 4am chase mice. 
-                        Scratch leg; meow for can opener to feed me purr when being pet nya nya nyan catasstrophe, 
-                        fooled again thinking the dog likes me cough hairball on conveniently placed pants.</p> -->
-                    </div>
-                </div>
-            </li>
-            <li class="carousel-item">
-                <div class="card">
-                    <!-- <h2 class="card-title">Just another awesome article</h2> -->
-                    <img src="images/sitebg1.jpg" title="" alt=""/>
-                    <div class="card-content">
-                        <!-- <p>Mewl for food at 4am chase mice. 
-                        Scratch leg; meow for can opener to feed me purr when being pet nya nya nyan catasstrophe, 
-                        fooled again thinking the dog likes me cough hairball on conveniently placed pants.</p> -->
-                    </div>
-                </div>
-            </li>
-            <li class="carousel-item">
-                <div class="card">
-                    <!-- <h2 class="card-title">Yet another awesome article</h2> -->
-                    <img src="images/sitebg1.jpg" title="" alt=""/>
-                    <div class="card-content">
-                        <!-- <p>Mewl for food at 4am chase mice. 
-                        Scratch leg; meow for can opener to feed me purr when being pet nya nya nyan catasstrophe, 
-                        fooled again thinking the dog likes me cough hairball on conveniently placed pants.</p> -->
-                    </div>
-                </div>
-            </li>
-        </ul>
+        <div class="carousel-wrapper">
+            <span id="item-1"></span>
+            <span id="item-2"></span>
+            <span id="item-3"></span>
+        <div class="carousel-item item-1">
+            <h2>Item 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat. Maecenas lacus nunc, imperdiet sed mi et, finibus suscipit mi.</p>
+            <a class="arrow arrow-prev" href="#item-3"></a>
+            <a class="arrow arrow-next" href="#item-2"></a>
+        </div>
+        <div class="carousel-item item-2">
+            <h2>Item 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
+            <a class="arrow arrow-prev" href="#item-1"></a>
+            <a class="arrow arrow-next" href="#item-3"></a>
+        </div>
+        <div class="carousel-item item-3">
+            <h2>Item 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
+            <a class="arrow arrow-prev" href="#item-2"></a>
+            <a class="arrow arrow-next" href="#item-1"></a>
+        </div>
+    </div>
     </section>
 
     <!-- Cinquième section, partie contact -->  
@@ -230,7 +240,6 @@
                 <li>85 Chemin Talbor</li><br>
                 <li>91 310 LINAS</li><br>
                 <li>Tél.06 59 33 43 97</li><br>
-                <!--<li><a href="mailto:2fplomberie@gmail.com">2fplomberie@gmail.com</a></li>-->
             </ul>
         </div>
 
