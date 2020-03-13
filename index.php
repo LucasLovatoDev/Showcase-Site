@@ -52,7 +52,7 @@
                 <a href="#salledebain" title="Salle de Bain" class="nav-link"> <i class="fas fa-shower"></i> <span class=""ml-1></span> Salle de Bains</a>
             </li>
             <li>
-                <a href="#fuite/dégorgement" title="Fuite/Dégorgment" class="nav-link"> <i class="fas fa-bath"></i> <span class=""ml-1></span> Fuites/Dégorgement</a>
+                <a href="#fuite/dégorgement" title="Fuite/Dégorgment" class="nav-link"> <i class="fas fa-water"></i> <span class=""ml-1></span> Fuites/Dégorgement</a>
             </li>
             <li>
                 <a href="#realisations" title="Réalisations" class="nav-link"> <i class="fas fa-archive"></i> <span class=""ml-1></span> Réalisations</a>
@@ -83,6 +83,7 @@
                             Chauffe eau : gaz, électrique, de type vertical, de type horizontal<br>
                             Chauffe eau Thermo-dynamique<br>
                         </p>
+                        <a href="plomberie.php" class="button1">Plus d'infos</a>
                     </div>
                     <ul class="services-item">
                         <li class="services-items">
@@ -120,6 +121,7 @@
                         Salles de bains pour personnes à mobilité réduite
                         Carrelage antidérapant
                     </p>
+                    <a href="salle_de_bains.php" class="button2">Plus d'infos</a>
                 </div>   
             </div>
         </section>
@@ -129,12 +131,21 @@
         <div class="container">
             <div class="bain-details">
                 <div class="bain-heading">
-                    <h1>Bain</h1>
+                    <h1>Fuite/Dégorgement</h1>
                 </div>
                     <p>
-                    <h3>Baignoires :</h3><br>
-                        Classiques, sabots, d'angle, asymétriques, Îlots, baignoires-douches
+                    <h3>Nos interventions :</h3><br>
+                        Recherche de fuites<br>
+                        Diagnostic humidité<br>
+                        Audit technique bâtiment<br>
+                        Traçage et contrôle des réseaux (eau chaude, eau froide, chauffage)<br>
+                        Test d’étanchéité des terrasses, façades…<br><br>
+                    <h3>Nos techniques :</h3><br>
+                        Des interventions non destructives donc sans démolition<br>
+                        Des diagnostics précis qui permettent des réparations sur un périmètre clairement identifié<br>
+                        Des rapports détaillés incluant photos, commentaires, conclusions et recommandations
                     </p>
+                    <a href="fuite_dégorgement.php" class="button3">Plus d'infos</a>
                 </div>  
                 <ul class="services-item">
                     <li class="services-items">
@@ -157,19 +168,19 @@
             <span id="item-2"></span>
             <span id="item-3"></span>
         <div class="carousel-item item-1">
-            <h2>Item 1</h2>
+            <h2>Photo 1</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat. Maecenas lacus nunc, imperdiet sed mi et, finibus suscipit mi.</p>
             <a class="arrow arrow-prev" href="#item-3"></a>
             <a class="arrow arrow-next" href="#item-2"></a>
         </div>
         <div class="carousel-item item-2">
-            <h2>Item 2</h2>
+            <h2>Photo 2</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
             <a class="arrow arrow-prev" href="#item-1"></a>
             <a class="arrow arrow-next" href="#item-3"></a>
         </div>
         <div class="carousel-item item-3">
-            <h2>Item 3</h2>
+            <h2>Photo 3</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
             <a class="arrow arrow-prev" href="#item-2"></a>
             <a class="arrow arrow-next" href="#item-1"></a>
@@ -243,6 +254,10 @@
             </ul>
         </div>
 
+        <div class="trademark">
+            <img src="images/logo_transparent.png" alt="logo" />
+        </div>
+        
         <!--<div id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.574661271122!2d2.2520238152256766!3d48.61798442555837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5d754da54575f%3A0xa73585968c8e28e6!2s85%20Chemin%20de%20Tabor%2C%2091310%20Linas!5e0!3m2!1sfr!2sfr!4v1578679211614!5m2!1sfr!2sfr" width="250" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>-->

@@ -90,9 +90,9 @@ p {
     margin-bottom: -3rem;
 }
 
-.services-items {
+/*.services-items {
     margin-right: 110px;
-}
+}*/
 /*End Reusable*/
 
 /*Start Header*/
@@ -309,6 +309,27 @@ p.text-pop {
     font-size: 1.2rem;
     flex: 1;
 }
+
+a.button1 {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #000000;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    background-color: #3A5199;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+a.button1:hover {
+    color: #000000;
+    background-color: rgba(56,182,255,0.56);
+}
 /*End Plomberie*/
 
 /*Start Douche*/
@@ -360,6 +381,27 @@ p.text-pop {
     font-size: 1.2rem;
     flex: 1;
 }
+
+a.button2 {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #000000;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    background-color: #3A5199;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+a.button2:hover {
+    color: #000000;
+    background-color: rgba(56,182,255,0.56);
+}
 /* End Douche */
 
 /*Start Bain*/
@@ -377,7 +419,7 @@ p.text-pop {
     text-align: center;
     text-transform: uppercase;
     line-height: 0;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 
 .bain-heading h1 {
@@ -411,6 +453,27 @@ p.text-pop {
     line-height: 1.5rem;
     font-size: 1.3rem;
     flex: 1;
+}
+
+a.button3 {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #000000;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    background-color: #3A5199;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+a.button3:hover {
+    color: #000000;
+    background-color: rgba(56,182,255,0.56);
 }
 /*End Bain*/
 
@@ -517,6 +580,10 @@ img {
 /*End Realisations*/
 
 /*Start Contact*/
+.trademark {
+    width: 100px;
+}
+
 .contact {
     padding: 2.5rem 0;
     font-family: 'Roboto', sans-serif;
@@ -658,6 +725,11 @@ input[type="submit"]:hover {
         margin-right: 0px;
     }
 
+    .trademark {
+        margin-left: 44rem;
+        width: 100px;
+    }
+    
     /*Navigation Menu*/
     .navigation {
         display: none;
@@ -819,7 +891,7 @@ input[type="submit"]:hover {
     .carousel-wrapper {
         height:350px;
         position:relative;
-        width:250px;
+        width:290px;
         margin:0 auto;
     }
 
